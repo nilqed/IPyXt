@@ -4,18 +4,18 @@ Some extensions for the [IPython](http://ipython.org/ "IPython") interactive
 computing environment (especially for `qtconsole` and  `notebook` mode).
 
 
-sympyprt
---------
+## sympyprt
+
 This is a single file (sympyprt.py) extension for 
 [SymPy](http://sympy.org/en/index.html "SymPy") - the *Python* library for
 symbolic mathematics. 
 
-## Purpose
+### Purpose
 `sympyprt` is a SymPy printer extension which renders the output (provided
 that you are using `ipython qtconsole` or `ipython notebook`) of SymPy to
 a LaTeX compiled inline image.
 
-## Prerequisites
+### Prerequisites
 A complete IPython installation (details @ ipython.org):
 
 * IPython 0.11+ (with PyQT4, ZMQ)
@@ -33,13 +33,12 @@ Some are not really necessary and can be removed by editing the code (TeX2).
 
 The `breqn` package is used to split very long output.
 
-## Installation
+### Installation
 Copy the file `sympyprt.py` (possibly after editing) into the IPython 
-`extension` directory. 
-
+`extension` directory.  
 Usually: `site-packages/IPython/extensions`.
 
-## Usage
+### Usage
 Load the extension with the IPython magic:
 
     %load_ext sympyprt
@@ -75,7 +74,7 @@ This defines also a magic command `%sympyprt` to control the TeX rendering:
     @sympyprt mode equation      ;; choose mode: inline, equation, equation*   
 
 
-## Advanced usage
+### Advanced usage
 There is a picture cache avoiding rendering the same output again and again 
 (i.e inspecting the history).
 
@@ -110,7 +109,7 @@ To access the internals do as follows (for example):
     tex(r'This text was rendered with \LaTeX')
 
 
-## Notes
+### Notes
 Magic name:
 
 If one prefers another name for the `%sympyprt magic`, change the global
@@ -133,14 +132,12 @@ Many (if not most) objects are cached with its 'id'. When typing
      3. delete the original object, so that simpy creates a new one (id)
 
 
-## Sample output
-[QT sample (HTML](http://edu.scios.ch/sympy/qt_sample_sympy.html)
-
+### Sample output
+[QT sample (HTML](http://edu.scios.ch/sympy/qt_sample_sympy.html)  
 [Notebook sample (ipynb)](http://edu.scios.ch/sympy/nb_sample_sympy.ipynb) 
 
 
-## Credits
-based on ipython/extensions/sympyprinting.py by Brian Granger
-
-dvipng 1.XX Copyright 2002-2008 Jan-Ake Larsson
+### Credits
+    based on ipython/extensions/sympyprinting.py by Brian Granger  
+    dvipng 1.XX Copyright 2002-2008 Jan-Ake Larsson
 
