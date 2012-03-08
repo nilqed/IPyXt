@@ -30,11 +30,14 @@ A complete IPython installation (details @ ipython.org):
   * flexisym
 
 Some are not really necessary and can be removed by editing the code (TeX2).
+
 The `breqn` package is used to split very long output.
 
 ## Installation
 Copy the file `sympyprt.py` (possibly after editing) into the IPython 
-`extension` directory. Usually: `site-packages/IPython/extensions`.
+`extension` directory. 
+
+Usually: `site-packages/IPython/extensions`.
 
 ## Usage
 Load the extension with the IPython magic:
@@ -73,7 +76,7 @@ This defines also a magic command `%sympyprt` to control the TeX rendering:
 
 
 ## Advanced usage
-There is picture cache avoiding rendering the same output again and again 
+There is a picture cache avoiding rendering the same output again and again 
 (i.e inspecting the history).
 
 To access the internals do as follows (for example):
@@ -109,8 +112,9 @@ To access the internals do as follows (for example):
 
 ## Notes
 Magic name:
-If one prefers another name for the %sympyprt magic, change the global
-variable _magic in the code below.
+
+If one prefers another name for the `%sympyprt magic`, change the global
+variable `_magic` in the code below.
 
 if the `latex` method is used all the png images are stored in the
 user's temp directory. The LaTeX source and aux files will be cleared
@@ -120,19 +124,23 @@ user's temp directory. The LaTeX source and aux files will be cleared
     NT: !dir %temp% -> show the content of the temp dir
     
 Many (if not most) objects are cached with its 'id'. When typing
+
     _n ([n] = IPy output number) a cached image will be shown. There
     are several methods to redraw the image:
-    1. delete it from the cache
-    2. get the instance from the cache and use its render() method
-    3. delete the original object, so that simpy creates a new one (id)
+    
+     1. delete it from the cache
+     2. get the instance from the cache and use its render() method
+     3. delete the original object, so that simpy creates a new one (id)
 
 
 ## Sample output
 [QT sample (HTML](http://edu.scios.ch/sympy/qt_sample_sympy.html)
+
 [Notebook sample (ipynb)](http://edu.scios.ch/sympy/nb_sample_sympy.ipynb) 
 
 
 ## Credits
 based on ipython/extensions/sympyprinting.py by Brian Granger
+
 dvipng 1.XX Copyright 2002-2008 Jan-Ake Larsson
 
