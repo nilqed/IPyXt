@@ -37,6 +37,9 @@ The `breqn` package is used to split very long output.
 Copy the file `sympyprt.py` (possibly after editing) into the IPython 
 `extension` directory.  
 Usually: `site-packages/IPython/extensions`.
+For Mac users see [issue #1] (https://github.com/scios/IPyXt/issues/1 "Issue #1"). BTW the script
+was not tested on OSX. Consult the IPython user manual in case of difficulties to find the extension
+directory.
 
 ### Usage
 Load the extension with the IPython magic:
