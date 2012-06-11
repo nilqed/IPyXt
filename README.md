@@ -12,6 +12,7 @@ minor changes concern the interactive help strings. For details consult
 the `test_sympyprt.py, sympyprt_howto.maff and the *.html files`.
 The license was changed from BSD(2) to BSD(0), i.e. no restrictions at all. 
 
+
 This is a single file (sympyprt.py) extension for 
 [SymPy](http://sympy.org/en/index.html "SymPy") - the *Python* library for
 symbolic mathematics. 
