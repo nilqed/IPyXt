@@ -1,0 +1,14 @@
+/* Effective stylesheet produced by snapshot save */
+.CodeMirror { line-height: 1em; font-family: monospace; }
+.CodeMirror-scroll { overflow: auto; height: 300px; position: relative; }
+.CodeMirror-gutter { position: absolute; left: 0pt; top: 0pt; z-index: 10; background-color: rgb(247, 247, 247); border-right: 1px solid rgb(238, 238, 238); min-width: 2em; height: 100%; }
+.CodeMirror-gutter-text { color: rgb(170, 170, 170); text-align: right; padding: 0.4em 0.2em 0.4em 0.4em; }
+.CodeMirror-lines { padding: 0.4em; }
+.CodeMirror pre { border-radius: 0pt 0pt 0pt 0pt; border-width: 0pt; background: none repeat scroll 0% 0% transparent; font-family: inherit; font-size: inherit; padding: 0pt; margin: 0pt; white-space: pre; word-wrap: normal; }
+.CodeMirror textarea { font-family: inherit ! important; font-size: inherit ! important; }
+.CodeMirror-cursor { z-index: 10; position: absolute; visibility: hidden; border-left: 1px solid black ! important; }
+.CodeMirror-focused .CodeMirror-cursor { visibility: visible; }
+span.CodeMirror-selected { background: none repeat scroll 0% 0% rgb(204, 204, 204) ! important; color: highlighttext ! important; }
+.CodeMirror-focused span.CodeMirror-selected { background: none repeat scroll 0% 0% highlight ! important; }
+.CodeMirror-matchingbracket { color: rgb(0, 255, 0) ! important; }
+.CodeMirror-nonmatchingbracket { color: rgb(255, 34, 34) ! important; }

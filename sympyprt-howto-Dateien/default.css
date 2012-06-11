@@ -1,0 +1,20 @@
+/* Effective stylesheet produced by snapshot save */
+.cm-s-default span.cm-keyword { color: rgb(119, 0, 136); }
+.cm-s-default span.cm-atom { color: rgb(34, 17, 153); }
+.cm-s-default span.cm-number { color: rgb(17, 102, 68); }
+.cm-s-default span.cm-def { color: rgb(0, 0, 255); }
+.cm-s-default span.cm-variable { color: black; }
+.cm-s-default span.cm-variable-2 { color: rgb(0, 85, 170); }
+.cm-s-default span.cm-variable-3 { color: rgb(0, 170, 85); }
+.cm-s-default span.cm-property { color: black; }
+.cm-s-default span.cm-operator { color: black; }
+.cm-s-default span.cm-comment { color: rgb(170, 85, 0); }
+.cm-s-default span.cm-string { color: rgb(170, 17, 17); }
+.cm-s-default span.cm-string-2 { color: rgb(255, 85, 0); }
+.cm-s-default span.cm-meta { color: rgb(85, 85, 85); }
+.cm-s-default span.cm-error { color: rgb(255, 0, 0); }
+.cm-s-default span.cm-qualifier { color: rgb(85, 85, 85); }
+.cm-s-default span.cm-builtin { color: rgb(51, 0, 170); }
+.cm-s-default span.cm-bracket { color: rgb(204, 204, 119); }
+.cm-s-default span.cm-tag { color: rgb(17, 119, 0); }
+.cm-s-default span.cm-attribute { color: rgb(0, 0, 204); }

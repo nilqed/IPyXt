@@ -1,0 +1,18 @@
+/* Effective stylesheet produced by snapshot save */
+.cm-s-default span.cm-emphasis { font-style: italic; }
+.cm-s-default span.cm-strong { font-weight: bold; }
+.cm-s-default span.cm-interpreted { color: rgb(51, 204, 102); }
+.cm-s-default span.cm-inline { color: rgb(51, 153, 204); }
+.cm-s-default span.cm-role { color: rgb(102, 102, 153); }
+.cm-s-default span.cm-list { color: rgb(204, 0, 153); font-weight: bold; }
+.cm-s-default span.cm-body { color: rgb(102, 153, 204); }
+.cm-s-default span.cm-verbatim { color: rgb(51, 102, 255); }
+.cm-s-default span.cm-comment { color: rgb(170, 119, 0); }
+.cm-s-default span.cm-directive { font-weight: bold; color: rgb(51, 153, 255); }
+.cm-s-default span.cm-hyperlink { font-weight: bold; color: rgb(51, 102, 255); }
+.cm-s-default span.cm-footnote { font-weight: bold; color: rgb(51, 51, 255); }
+.cm-s-default span.cm-citation { font-weight: bold; color: rgb(51, 0, 255); }
+.cm-s-default span.cm-replacement { color: rgb(153, 51, 204); }
+.cm-s-default span.cm-section { font-weight: bold; color: rgb(204, 0, 153); }
+.cm-s-default span.cm-directive-marker { font-weight: bold; color: rgb(51, 153, 255); }
+.cm-s-default span.cm-verbatim-marker { font-weight: bold; color: rgb(153, 0, 255); }

@@ -1,0 +1,9 @@
+/* Effective stylesheet produced by snapshot save */
+body { background-color: white; position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px; overflow: hidden; }
+div#header { display: none; position: relative; height: 40px; padding: 5px; margin: 0px; width: 100%; }
+span#ipython_notebook { position: absolute; padding: 2px 2px 2px 5px; }
+span#ipython_notebook h1 img { font-family: Verdana,"Helvetica Neue",Arial,Helvetica,Geneva,sans-serif; height: 24px; text-decoration: none; display: inline; color: black; }
+div#main_app { display: none; width: 100%; position: relative; }
+.ui-button .ui-button-text { padding: 0.2em 0.8em; font-size: 77%; }
+span#login_widget { float: right; }
+.hidden { display: none; }

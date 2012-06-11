@@ -1,0 +1,90 @@
+/* Effective stylesheet produced by snapshot save */
+body { background-color: white; position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px; overflow: hidden; }
+span#save_widget { padding: 2px 0px; margin: 0px; display: inline-block; }
+span#quick_help_area { position: static; padding: 5px 0px; margin: 0px; }
+input#notebook_name { height: 1em; line-height: 1em; padding: 5px; }
+span#kernel_status { position: absolute; padding: 8px 5px 5px; right: 10px; font-weight: bold; }
+.status_idle { color: gray; visibility: hidden; }
+.status_busy { color: red; }
+.status_restarting { color: black; }
+div#left_panel { overflow-y: auto; top: 0px; left: 0px; margin: 0px; padding: 0px; position: absolute; }
+div.section_header { padding: 5px; }
+div.section_header h3 { display: inline; }
+div.section_content { padding: 5px; }
+span.section_row_buttons button { width: 70px; }
+span.section_row_buttons a { width: 70px; }
+.section_row { margin: 5px 0px; }
+.section_row_buttons { float: right; }
+#kernel_persist { float: right; }
+.help_string { float: right; width: 170px; padding: 0px 5px; text-align: left; font-size: 85%; }
+.help_string_label { float: right; font-size: 85%; }
+#autoindent_span { float: right; }
+#timebeforetooltip { margin-top: -3px; text-align: right; }
+#timebeforetooltip_span { float: right; padding: 0px 5px; font-size: 85%; }
+#timebeforetooltip_label { float: right; text-align: right; font-size: 85%; }
+#tooltipontab_span { float: right; }
+#smartcompleter_span { float: right; }
+.checkbox_label { font-size: 85%; float: right; padding: 0.3em; }
+.section_row_header { float: left; font-size: 85%; padding: 0.4em 0em; font-weight: bold; }
+span.button_label { padding: 0.2em 1em; font-size: 77%; float: right; }
+.section_row .ui-button { margin-top: 0px; margin-bottom: 0px; }
+#download_format { float: right; font-size: 85%; width: 62px; margin: 1px 5px; }
+div#left_panel_splitter { width: 8px; top: 0px; left: 202px; margin: 0px; padding: 0px; position: absolute; }
+div#notebook_panel { margin: 0px; padding: 0px; }
+div#notebook { overflow-y: scroll; overflow-x: auto; width: 100%; padding: 5px 5px 15px; }
+div#pager_splitter { height: 8px; }
+div#pager { padding: 15px; overflow: auto; }
+div.cell { width: 100%; padding: 5px 5px 5px 0px; margin: 2px 0px; }
+div.code_cell { background-color: white; }
+div.code_cell.running {  }
+div.prompt { width: 11ex; padding: 0.4em; margin: 0px; font-family: monospace; text-align: right; }
+div.input { page-break-inside: avoid; }
+div.input_area { color: black; border: 1px solid rgb(221, 221, 221); border-radius: 3px 3px 3px 3px; background: none repeat scroll 0% 0% rgb(247, 247, 247); }
+div.input_prompt { color: navy; border-top: 1px solid transparent; }
+div.output { margin-top: 5px; }
+div.output_prompt { color: darkred; }
+div.output_area { padding: 0px; page-break-inside: avoid; }
+div.output_subarea { padding: 0.4em 6.1em 0.4em 0.4em; }
+div.output_text { text-align: left; color: black; font-family: monospace; }
+div.output_stream { padding-top: 0em; padding-bottom: 0em; }
+div.output_stdout {  }
+div.output_stderr { background: none repeat scroll 0% 0% rgb(255, 221, 221); }
+div.output_latex { text-align: left; color: black; }
+div.output_html {  }
+div.output_png {  }
+div.output_jpeg {  }
+div.text_cell { background-color: white; }
+div.text_cell_input { color: black; }
+div.text_cell_render { font-family: "Helvetica Neue",Arial,Helvetica,Geneva,sans-serif; outline: medium none; resize: none; width: inherit; border-style: none; padding: 5px; color: black; }
+.CodeMirror { line-height: 1.231; }
+.CodeMirror-scroll { height: auto; overflow-y: hidden; overflow-x: auto; }
+.ansiblack { color: black; }
+.ansired { color: darkred; }
+.ansigreen { color: darkgreen; }
+.ansiyellow { color: brown; }
+.ansiblue { color: darkblue; }
+.ansipurple { color: darkviolet; }
+.ansicyan { color: steelblue; }
+.ansigrey { color: grey; }
+.ansibold { font-weight: bold; }
+.completions, .tooltip { position: absolute; z-index: 10; overflow: auto; border: 1px solid black; }
+.completions select { background: none repeat scroll 0% 0% white; outline: medium none; border: medium none; padding: 0px; margin: 0px; font-family: monospace; }
+@-moz-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+.tooltip a { float: right; }
+.bigtooltip { height: 30%; }
+.smalltooltip { text-overflow: ellipsis; overflow: hidden; height: 15%; }
+.tooltip { -moz-transition-property: height; -moz-transition-duration: 1s; max-width: 700px; border-radius: 0px 10px 10px 10px; box-shadow: 3px 3px 5px rgb(153, 153, 153); -moz-animation: 200ms ease 0s normal none 1 fadeIn; vertical-align: middle; background: none repeat scroll 0% 0% rgb(253, 253, 216); outline: medium none; padding: 3px; margin: 0px; font-family: monospace; min-height: 50px; }
+.completions p b { font-weight: bold; }
+.completions p { background: none repeat scroll 0% 0% rgb(221, 221, 255); border-bottom: 1px solid black; padding: 1px; font-family: monospace; }
+pre.dialog { background-color: rgb(247, 247, 247); border: 1px solid rgb(221, 221, 221); border-radius: 3px 3px 3px 3px; padding: 0.4em 0.4em 0.4em 2em; }
+p.dialog { padding: 0.2em; }
+@media print {
+  body { overflow: visible ! important; }
+  .ui-widget-content { border: 0px none; }
+}
+.shortcut_key { display: inline-block; width: 13ex; text-align: right; font-family: monospace; }
+.shortcut_descr {  }
+pre, code, kbd, samp { white-space: pre-wrap; }

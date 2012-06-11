@@ -1,0 +1,20 @@
+/* Effective stylesheet produced by snapshot save */
+.border-box-sizing { -moz-box-sizing: border-box; }
+.hbox { display: -moz-box; -moz-box-orient: horizontal; -moz-box-align: stretch; }
+.hbox > * { -moz-box-flex: 0; }
+.vbox { display: -moz-box; -moz-box-orient: vertical; -moz-box-align: stretch; }
+.vbox > * { -moz-box-flex: 0; }
+.reverse { -moz-box-direction: reverse; }
+.box-flex0 { -moz-box-flex: 0; }
+.box-flex1, .box-flex { -moz-box-flex: 1; }
+.box-flex2 { -moz-box-flex: 2; }
+.box-group1 {  }
+.box-group2 {  }
+.start { -moz-box-pack: start; }
+.end { -moz-box-pack: end; }
+.center { -moz-box-pack: center; }
+.message { border-width: 1px; border-style: solid; text-align: center; padding: 0.5em; margin: 0.5em 0pt; }
+.message.error { background-color: rgb(255, 211, 209); border-color: red; }
+.message.warning { background-color: rgb(255, 208, 158); border-color: orange; }
+.message.info { background-color: rgb(203, 255, 186); border-color: green; }
+#content_panel { margin: 0.5em; }
